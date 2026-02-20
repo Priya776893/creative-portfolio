@@ -8,21 +8,21 @@ const projects = [
         title: "Competitor Pricing Optimizer",
         category: "AI/ML",
         description: "An AI tool that optimizes pricing by scraping rival data, clustering products, and predicting ideal price points using ML clustering and regression models.",
-        image: "/projects/pricing_optimizer.jpg" // Example image path
+        color: "bg-blue-600"
     },
     {
         id: 2,
         title: "AI Chatbot Persona",
         category: "AI",
         description: "A specialized Travel Guide persona developed using advanced prompt engineering and Landbot integration.",
-        image: "/projects/chatbot.jpg"
+        color: "bg-gradient-to-br from-orange-400 to-orange-600"
     },
     {
         id: 3,
         title: "Handwritten Digit Recognition",
         category: "Machine Learning",
         description: "A CNN model achieving 99.3% accuracy on digit recognition, featuring a robust preprocessing pipeline to handle noisy real-world images.",
-        image: "/projects/digit_recognition.jpg"
+        color: "bg-gradient-to-br from-pink-400 to-pink-600"
     },
 ];
 
@@ -54,17 +54,9 @@ export default function Projects() {
                             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
                             <div className="h-64 bg-neutral-800/50 rounded-xl mb-6 overflow-hidden relative">
-                                {project.image ? (
-                                    <img
-                                        src={project.image}
-                                        alt={project.title}
-                                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                                    />
-                                ) : (
-                                    <div className="w-full h-full flex items-center justify-center text-neutral-600">
-                                        [Project Thumbnail]
-                                    </div>
-                                )}
+                                <div className={`w-full h-full ${project.color} transform group-hover:scale-110 transition-transform duration-500 flex items-center justify-center`}>
+                                    <div className="text-white/20 text-6xl font-black opacity-30 select-none">0{project.id}</div>
+                                </div>
                             </div>
 
                             <div className="flex justify-between items-end">
