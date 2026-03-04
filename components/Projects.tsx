@@ -24,6 +24,13 @@ const projects = [
         description: "A CNN model achieving 99.3% accuracy on digit recognition, featuring a robust preprocessing pipeline to handle noisy real-world images.",
         color: "bg-gradient-to-br from-pink-400 to-pink-600"
     },
+    {
+        id: 4,
+        title: "Creative Website",
+        category: "Web Design",
+        description: "Built a premium, highly interactive product landing page that goes beyond the standard web experience. I chose to redesign the digital experience for \"Smoodh\" flavored milk, focusing on high-performance animations and deep user engagement.",
+        color: "bg-gradient-to-br from-indigo-400 to-purple-600"
+    },
 ];
 
 export default function Projects() {

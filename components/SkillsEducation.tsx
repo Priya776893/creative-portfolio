@@ -4,24 +4,28 @@ import { motion } from "framer-motion";
 
 const skillCategories = [
     {
-        title: "Programming Languages",
-        skills: ["Python", "Java", "JavaScript", "HTML5", "CSS3", "SQL"]
+        title: "Prompt Engineering",
+        skills: ["GPT-4", "Claude", "LLM Optimization", "Chain-of-Thought", "Prompt Templates", "ReAct", "Automation"]
     },
     {
-        title: "AI/ML Technologies",
-        skills: ["Prompt Engineering", "GPT-4", "Claude", "LangChain", "NLP", "Generative AI", "TensorFlow", "Scikit-learn"]
+        title: "Programming",
+        skills: ["Python", "Java", "SQL"]
     },
     {
-        title: "Data Analytics",
-        skills: ["Pandas", "NumPy", "Data Visualization", "Excel", "Statistical Analysis", "A/B Testing"]
+        title: "AI/ML",
+        skills: ["LangChain", "OpenAI API", "Hugging Face", "TensorFlow", "scikit-learn"]
     },
     {
-        title: "Quality Assurance",
-        skills: ["Test Case Design", "Defect Tracking and Reporting", "Regression Testing", "UAT", "BlackBox Testing", "Root Cause Analysis", "Test Documentation"]
+        title: "Data Analysis",
+        skills: ["Power BI", "Pandas", "NumPy", "Matplotlib", "Excel", "Data Visualization"]
     },
     {
-        title: "Tools & Platforms",
-        skills: ["JIRA", "Selenium", "Postman (API Testing)", "Git", "VS Code", "Jupyter Notebook", "API Integration", "Wix", "Google Analytics"]
+        title: "Tools",
+        skills: ["Github", "Jupyter", "VS Code", "API Integration", "Antigravity", "REST APIs", "Firebase", "Android Studio"]
+    },
+    {
+        title: "Methodologies",
+        skills: ["Agile", "A/B Testing", "Model Evaluation", "Iterative Design"]
     }
 ];
 
